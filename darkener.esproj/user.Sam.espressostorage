@@ -13,16 +13,16 @@
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{346, 878}</string>
+		<string>{334, 878}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
-	<true/>
+	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/Sam/Sites/darkener/css/min</string>
-			<string>file://localhost/Users/Sam/Sites/darkener/js</string>
+			<string>file://localhost/Users/Sam/Sites/darkener/css</string>
+			<string>file://localhost/Users/Sam/Sites/darkener/js/jscolor</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>

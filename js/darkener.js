@@ -1,8 +1,11 @@
 $(document).ready(function() {
+
+		$('#before input').val('11CD8A');
+		
 		var color = $('#before input').val();
 		if (color.length >6) { color= color.substring(1,color.length)}
 		
-		var v = 100;
+		var v = 50;
 		var rgb = parseInt(color, 16); 
 		var r = Math.abs(((rgb >> 16) & 0xFF)-v); if (r>255) r=r-(r-255);
 		var g = Math.abs(((rgb >> 8) & 0xFF)-v); if (g>255) g=g-(g-255);
@@ -40,7 +43,7 @@ $('#before').change(function() {
     b = Number(b < 0 || isNaN(b)) ? 0 : ((b > 255) ? 255 : b).toString(16); 
     if (b.length == 1) b = '0' + b;
     
-	$('#container').append("<div id='after' style='background: #" + r  + g + b + ";'><h2 style='color: #" + color + ";'>" + r + g + b + "</h2></div>");
+	$('#color-container').append("<div id='after' style='background: #" + r  + g + b + ";'><h2 style='color: #" + color + ";'>" + r + g + b + "</h2></div>");
 //	$('#after').val();
 	
 });

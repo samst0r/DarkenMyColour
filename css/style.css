@@ -17,6 +17,9 @@ header {
 /*	margin-bottom: 30px;*/
 }
 
+input #custom {
+	color: override white;
+}
 h1 {
 		text-shadow: 1px 1px 0 #000;
 		margin:  20px 0;
@@ -37,13 +40,15 @@ header h2 {
 	height: 600px;
 	width: 940px;
 }
+#color-container {
+	position: relative;
+}
 
-
-#arrow {
+#color-container img {
 	   position: absolute;
-	      top: 43%;
-	      left: 45%;
-		
+	   vertical-align: middle;
+	   padding-top: 160px;
+	   left: 45%;
 }
 #submit {
 	margin:0 auto; 
