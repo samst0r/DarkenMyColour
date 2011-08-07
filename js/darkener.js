@@ -16,7 +16,7 @@ function getTintedColor(color, v) {
 
 $(document).ready(function() {
 
-		$('#before input').val('11CD8A');
+		$('#before input').val('#11CD8A');
 		var color = getTintedColor($('#before input').val(), -50);
 
 		
