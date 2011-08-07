@@ -1,1 +1,6 @@
-darkener.esproj/
+/darkener.esproj/*
+*.psd
+# OS generated files #
+######################
+.DS_Store?
+
