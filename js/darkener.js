@@ -14,20 +14,22 @@ function getTintedColor(color, v) {
     return "#" + r + g + b;
 }
 
+//
+function updateDarkenedColourBox() {
+
+	var color = getTintedColor($('#before input').val(), -50);
+	 color= color.substring(1,color.length)
+	$('#color-container').append("<div id='after' style='background: #" + color + ";'><h2 style='color: #" + $('#before input').val() + ";'>" + color + "</h2></div>");
+}
+
 $(document).ready(function() {
-
-		$('#before input').val('#11CD8A');
-		var color = getTintedColor($('#before input').val(), -50);
-
-		
-		$('#color-container').append("<div id='after' style='background: #" + $('#before input').val() + ";'><h2 style='color: " + color + ";'>" + color + "</h2></div>");   });
+	// set default value
+	$('#before input').val('#11CD8A');
+	updateDarkenedColourBox();
+});
 
 $('#before').change(function() {
-
+	// remove after box to update it
 	$('#after').remove();
-	
-	var color = getTintedColor($('#before input').val(), -50);
-	$('#color-container').append("<div id='after' style='background: " + color + ";'><h2 style='color: #" + $('#before input').val() + ";'>" + color + "</h2></div>");
-//	$('#after').val();
-	
-});
+	updateDarkenedColourBox();
+});
