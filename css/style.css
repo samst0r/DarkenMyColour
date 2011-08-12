@@ -1,5 +1,22 @@
-html, body {	padding: 0px;	margin:  0 20px;	background: #666;	font-family: 'Gill Sans';}textarea, input {	outline:none;}header {	color: #FFF;	text-align: center;}h1 {	text-shadow: 1px 1px 0 #000;	margin:  20px 0;	padding-bottom: 0;}
-header h2 {	color: #000;	text-align: center;	font-size: 44px;	margin-bottom: 20px;	font-weight: 100;	text-shadow: 1px 1px 0 #999;}#container {	margin: 0 auto;	height: 600px;	width: 940px;}#color-container {	position: relative;}#color-container img {	position: absolute;	vertical-align: middle;	padding-top: 160px;	left: 45%;}#change-mode {	font-size: 24px;
-	margin: 0 auto;
-	margin-top: 50px;
-		width: 940px;}#before input, #after {	width: 440px;	height: 440px;	border: 10px solid #FFF;	display: block;}h2, input#custom {	font-family: 'Gill Sans';	font-weight: normal;	text-shadow: 0px 1px 0 #000;	font-size: 64px;	text-align: center;}#before {	float: left;}#after h2 {	text-transform: uppercase;	position:relative;	top:30%;}#after {	float:  right;	vertical-align: middle;}footer {	font-size: 14px;	text-align: center;	clear: both;	margin: 80px auto 0;	color: #999;}
+html,  body {	padding: 0;	margin:  0 ;	font-family: 'Gill Sans';}
+ 
+#darken {
+	background: #333;
+}
+
+#lighten {
+	background: #CCC;
+}
+
+textarea, input {	outline:none;}
+ header {	color: #FFF;	text-align: center;} h1 {	text-shadow: 1px 1px 0 #000;	padding-bottom: 0;}
+ #darken header h2 {	color: #555;	text-align: center;	font-size: 44px;	margin-bottom: 20px;	font-weight: 100;/*	text-shadow: 1px 1px 0 #999;*/}#container {	margin: 0 auto;	height: 600px;	width: 940px;}#color-container {	position: relative;}#color-container img {	position: absolute;	vertical-align: middle;	padding-top: 160px;	left: 45%;}#change-mode {	font-size: 24px;
+	margin: 0 auto 20px;
+	height: 50px;	width: 100%;
+	background: #222;
+	color: #CCC;
+	border: 0;
+	border-bottom: 1px solid #666;}#before input, #after {	width: 440px;	height: 440px;	border: 10px solid #FFF;	display: block;}
+h2, input#custom {	font-family: 'Gill Sans';	font-weight: normal;	font-size: 64px;	text-align: center;
+	text-shadow: 1px 1px 0 #222;}
+#before {	float: left;}#after h2 {	text-transform: uppercase;	position:relative;	top:30%;}#after {	float:  right;	vertical-align: middle;}footer {	font-size: 14px;	text-align: center;	clear: both;	margin: 80px auto 0;	color: #999;}
