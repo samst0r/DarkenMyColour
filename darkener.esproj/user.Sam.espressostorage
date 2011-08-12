@@ -39,13 +39,13 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Sam/Sites/DarkenMyColour/js/darkener.js</string>
+				<string>file://localhost/Users/Sam/Sites/DarkenMyColour/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/Sam/Sites/DarkenMyColour/index.html</string>
+				<string>file://localhost/Users/Sam/Sites/DarkenMyColour/js/darkener.js</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
