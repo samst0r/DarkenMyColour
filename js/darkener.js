@@ -19,14 +19,14 @@ function getTintedColor(color, v) {
     return "#" + r + g + b;
 }
 
-$('#before input').change(function() {
-    updateAfterBox();
-
-});
-
 var darkenHeading = "<h1>DarkenMyColour</h1><h2> Enter your hex colour - get a darker version.</h2>";
 var lightenHeading = "<h1>LightenMyColour</h1><h2> Enter your hex colour - get a lighter version.</h2>";
 var MODE = "lighten";
+
+$('#before input').change(function() {
+    updateAfterBox();
+});
+
 
 $('#change-mode').click(function() {
 	
@@ -69,8 +69,8 @@ function tintBeforeColor() {
 
 // Update after box with new background color and text
 function updateAfterBox() {
+		$('#before input').focus();
 
-    $('#before input').focus();
     // get tinted colour
     var original = $('#before input').val();
     var tinted = tintBeforeColor();
@@ -90,4 +90,5 @@ $(document).ready(function() {
 	$('html').css('background', '#222');
     $('#before input').val('11CD8A');
     updateAfterBox();
+	$('#before input').focus();
 });
