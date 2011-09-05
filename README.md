@@ -3,7 +3,7 @@ DarkenMyColor
 
 Usage
 -----
-Get a darker version of a colour you've been using in a theme or design!
+Get a darker (or lighter) version of a colour you've been using in a theme or design!
 
 ### How To
 1. Input a hex colour code into the left box. 
