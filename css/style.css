@@ -27,7 +27,7 @@ header h2 {
 	font-family: 'Georgia';
 	color: #f2f2f2;
 	text-align: center;
-	font-size: 44px;
+  font-size: 44px;
 	margin-bottom: 20px;
 	text-shadow: 1px 1px 0 #000;
 /*	font-weight: 100;*/
@@ -113,7 +113,8 @@ h2, input#custom {
 }
 
 footer {
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: normal;
 	text-align: center;
 	clear: both;
 	margin: 120px auto 0;
